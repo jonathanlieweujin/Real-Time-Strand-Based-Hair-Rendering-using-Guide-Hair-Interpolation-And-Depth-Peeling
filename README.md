@@ -1,6 +1,6 @@
 # Real-Time-Strand-Based-Hair-Rendering-using-Guide-Hair-Interpolation-And-Depth-Peeling
 
-This project is carried out for my Final Year Project (SW40106 PROJEK SAINTIFIK II). Project was carried out using C++ as programming language along with OpenGL library, and Visual Studio 2019 as the IDE.
+This project is carried out for my Final Year Project (SW40106 PROJEK SAINTIFIK II). Project was carried out using C++ as programming language along with OpenGL library, Visual Studio 2019 as the IDE, and an experimenting device that runs on NVIDIA GeForce GTX 1650 and Microsoft Windows 10 as its operating system.
 
 Hair is an important element in CGI and digital animation. However, it has been proven to be challenging to simulate hair properties when rendering hair. Lighting model that accounts for more than one light scattering direction renders high quality hair strands in terms of visual appearance at the cost of performance, while overlapping hair strands produce incorrect occlusion when accounting for hair transparency. 
 
