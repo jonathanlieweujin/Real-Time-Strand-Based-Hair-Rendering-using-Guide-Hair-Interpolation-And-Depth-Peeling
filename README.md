@@ -47,3 +47,6 @@ Zoomed in frame of rendered hairball geometry with depth-peeling transparency. H
 
 
 In conclusion, this project has provided a technique to improve hair-rendering performance and adapt order-independent transparency when rendering explicit hair strands.
+
+
+Thorough details on the research framewor, methodology and results can be found in the uploaded dissertation.
