@@ -1,4 +1,4 @@
-# Real-Time-Strand-Based-Hair-Rendering-using-Guide-Hair-Interpolation-And-Depth-Peeling
+# Real Time Strand-Based Hair Rendering using Guide Hair Interpolation And Depth-Peeling
 
 Hair is an important element in CGI and digital animation. However, it has been proven to be challenging to simulate hair properties when rendering hair. Lighting model that accounts for more than one light scattering direction renders high quality hair strands in terms of visual appearance at the cost of performance, while overlapping hair strands produce incorrect occlusion when accounting for hair transparency. 
 
@@ -9,7 +9,10 @@ i) to render hair geometry in real-time using guide hair interpolation.
 ii) to adapt order-independent transparency for correct occlusion of hair strands using depth peeling. 
 
 
-These objectives were evaluated through two tests. Performance tests were carried out using different experiments, which were different number of guide hair strands with a fixed total number of hair strands rendered, different hair type setups with a fixed total number of hair strands, and different total number of hair strands with a fixed number of strands per guide patch. The results from the performance tests carried out have shown that guide hairs have reduced the number of hair strands simulated. This has allowed the hair-rendering performance to achieve the benchmark requirements of between 30 fps or 33.33 ms and 60 fps or 16.67 ms. The proposed system was also able to render different types of hairstyles that consists of up to about 50000 strands in real-time. 
+These objectives were evaluated through two tests. 
+
+# Hair Rendering Performance
+Performance tests were carried out using different experiments, which were different number of guide hair strands with a fixed total number of hair strands rendered, different hair type setups with a fixed total number of hair strands, and different total number of hair strands with a fixed number of strands per guide patch. The results from the performance tests carried out have shown that guide hairs have reduced the number of hair strands simulated. This has allowed the hair-rendering performance to achieve the benchmark requirements of between 30 fps or 33.33 ms and 60 fps or 16.67 ms. The proposed system was also able to render different types of hairstyles that consists of up to about 50000 strands in real-time. 
 
 ![image](https://github.com/jonathanlieweujin/Real-Time-Strand-Based-Hair-Rendering-using-Guide-Hair-Interpolation-And-Depth-Peeling/assets/106479441/f0e1dc06-4f0c-43ef-aa1a-4ae61be934c1)
 
@@ -24,6 +27,7 @@ Average frame times of different hair type setups. Total number of hair strands 
 Rendering performance with increasing total number of hair strands used. Total number of strands per guide patch are kept constant at 64 strands.
 
 
+# Visual Results of Depth Peeling
 The second test involved visual comparison. Visual results show depth peeling rendered hairball geometry with proper occlusion, thus visual results obtained are better than that of traditional alpha blending. Both objectives of this project were achieved. 
 
 ![image](https://github.com/jonathanlieweujin/Real-Time-Strand-Based-Hair-Rendering-using-Guide-Hair-Interpolation-And-Depth-Peeling/assets/106479441/7c4036fe-2542-4460-8e05-0012de6368e1)
