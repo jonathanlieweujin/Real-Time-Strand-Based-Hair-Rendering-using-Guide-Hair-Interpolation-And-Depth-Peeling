@@ -1,0 +1,15 @@
+#version 440
+
+layout(vertices = 4) out;
+
+uniform int numGroupHairs;
+uniform int numSplineVertices;
+
+void main()
+{
+	if (gl_InvocationID == 0)
+	{
+		gl_TessLevelOuter[0] = numGroupHairs;
+		gl_TessLevelOuter[1] = numSplineVertices - 1;
+	}
+}
